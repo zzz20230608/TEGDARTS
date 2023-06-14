@@ -14,6 +14,9 @@ def Encrypt(m,k):
             m1[i]=chr(ord('a')+y)
     return "".join(m1)#转换回字符串
 
+def strmodify():
+    pass
+
 def Decrypt(s,k):
     """加法密码解密"""
     s1=list(s)
